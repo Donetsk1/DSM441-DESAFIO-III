@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">DESAFIO_III</string>
+
+    <!-- Login -->
+    <string name="title_login">Iniciar sesión</string>
+    <string name="action_login">Iniciar sesión</string>
+    <string name="prompt_no_account">¿No tienes cuenta? Regístrate</string>
+
+    <!-- Register -->
+    <string name="title_register">Crear cuenta</string>
+    <string name="action_register">Registrarse</string>
+    <string name="prompt_has_account">¿Ya tienes cuenta? Inicia sesión</string>
+
+    <!-- Common form -->
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_confirm_password">Confirmar contraseña</string>
+
+    <!-- Main -->
+    <string name="greeting_format">Hola, %1$s</string>
+    <string name="action_logout">Cerrar sesión</string>
+
+    <!-- Eliminar cuenta -->
+    <string name="action_delete_account">Eliminar cuenta</string>
+    <string name="title_delete_account_password">Confirma tu contraseña</string>
+    <string name="message_delete_account_password">Por tu seguridad, ingresa tu contraseña para continuar con la eliminación de tu cuenta.</string>
+    <string name="title_delete_account_confirm">Eliminar cuenta</string>
+    <string name="message_delete_account_confirm">Esta acción eliminará permanentemente tu cuenta y todos tus libros. Escribe CONFIRMAR para continuar.</string>
+    <string name="hint_delete_confirmation">Escribe CONFIRMAR</string>
+    <string name="error_delete_confirmation_mismatch">Debes escribir CONFIRMAR exactamente para continuar.</string>
+    <string name="action_continue">Continuar</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="message_account_deleted">Cuenta eliminada.</string>
+
+    <!-- Pantalla principal -->
+    <string name="label_goal_summary">Meta: %1$s · Terminados: %2$d · Faltan: %3$s</string>
+    <string name="label_goal_undefined">sin definir</string>
+    <string name="label_goal_na">—</string>
+    <string name="action_edit_goal">Editar meta</string>
+    <string name="title_edit_goal">Meta anual de lectura</string>
+    <string name="hint_annual_goal">Meta anual (libros)</string>
+    <string name="error_goal_invalid">Ingresa un número entero mayor que cero.</string>
+    <string name="label_currently_reading">Leyendo actualmente</string>
+    <string name="empty_reading_books">No tienes libros en progreso.</string>
+    <string name="action_add_book">Agregar libro</string>
+    <string name="action_view_library">Ver biblioteca</string>
+    <string name="action_view_stats">Ver estadísticas</string>
+    <string name="percent_format">%1$d%%</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_cancel">Cancelar</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_label_home">Inicio</string>
+    <string name="nav_label_books">Libros</string>
+    <string name="nav_label_library">Biblioteca</string>
+    <string name="nav_label_stats">Estadísticas</string>
+
+    <!-- Biblioteca -->
+    <string name="title_library">Biblioteca</string>
+    <string name="empty_library_list">Aún no has agregado libros. Ve a Inicio y toca \"Agregar libro\" para comenzar.</string>
+    <string name="label_genre_status_format">%1$s · %2$s</string>
+
+    <!-- Registro y edición de libros -->
+    <string name="title_add_book">Agregar libro</string>
+    <string name="title_edit_book">Editar libro</string>
+    <string name="hint_title">Título</string>
+    <string name="hint_author">Autor</string>
+    <string name="hint_genre">Género</string>
+    <string name="hint_status">Estado</string>
+    <string name="hint_total_pages">Total de páginas</string>
+    <string name="hint_pages_read">Páginas leídas</string>
+    <string name="label_rating">Calificación</string>
+    <string name="action_save_book">Guardar libro</string>
+    <string name="error_title_required">El título es obligatorio.</string>
+    <string name="error_title_length">El título debe tener entre 2 y 60 caracteres.</string>
+    <string name="error_author_required">El autor es obligatorio.</string>
+    <string name="error_author_length">El autor debe tener entre 2 y 60 caracteres.</string>
+    <string name="error_genre_required">Selecciona un género.</string>
+    <string name="error_status_required">Selecciona un estado.</string>
+    <string name="error_total_pages_invalid">El total de páginas debe ser un número entero mayor que cero.</string>
+    <string name="error_pages_read_invalid">Las páginas leídas deben ser un número entero entre 0 y el total de páginas.</string>
+    <string name="error_rating_required">La calificación es obligatoria para libros terminados.</string>
+    <string name="message_book_saved">Libro guardado.</string>
+    <string name="message_book_updated">Libro actualizado.</string>
+    <string name="action_delete_book">Eliminar libro</string>
+    <string name="title_delete_book_confirm">Eliminar libro</string>
+    <string name="message_delete_book_confirm">Esta acción eliminará este libro permanentemente. ¿Deseas continuar?</string>
+    <string name="message_book_deleted">Libro eliminado.</string>
+
+    <!-- Validación local -->
+    <string name="error_email_required">El correo es obligatorio.</string>
+    <string name="error_email_invalid">Ingresa un correo electrónico válido.</string>
+    <string name="error_password_required">La contraseña es obligatoria.</string>
+    <string name="error_password_short">La contraseña debe tener al menos 6 caracteres.</string>
+    <string name="error_confirm_password_required">Confirma tu contraseña.</string>
+    <string name="error_password_mismatch">Las contraseñas no coinciden.</string>
+
+    <!-- Estadísticas -->
+    <string name="title_stats">Estadísticas</string>
+    <string name="empty_stats">Aún no has terminado ningún libro. ¡Termina uno para ver tus estadísticas!</string>
+    <string name="label_genre_breakdown">Libros terminados por género (este año)</string>
+    <string name="label_most_read_genre">Género más leído (este año)</string>
+    <string name="label_total_pages_year">Total de páginas leídas (este año)</string>
+    <string name="label_best_rated_book">Libro mejor calificado</string>
+    <string name="stats_genre_count_format">%1$s: %2$d</string>
+    <string name="stats_most_read_genre_tie">Empate</string>
+    <string name="stats_best_rated_book_format">%1$s — %2$s</string>
+
+    <!-- Errores de Firebase Auth -->
+    <string name="error_user_collision">Ya existe una cuenta con este correo.</string>
+    <string name="error_weak_password">La contraseña no cumple los requisitos mínimos.</string>
+    <string name="error_network">Error de conexión. Verifica tu internet e intenta de nuevo.</string>
+    <string name="error_too_many_requests">Demasiados intentos. Intenta más tarde.</string>
+    <string name="error_invalid_credentials">Correo o contraseña incorrectos.</string>
+    <string name="error_generic">Ocurrió un error inesperado. Intenta nuevamente.</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.desafio_iii.HomeFragment"
+        android:label="@string/nav_label_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_books"
+        android:name="com.example.desafio_iii.BooksFragment"
+        android:label="@string/nav_label_books"
+        tools:layout="@layout/fragment_books">
+        <argument
+            android:name="bookId"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_library"
+        android:name="com.example.desafio_iii.LibraryFragment"
+        android:label="@string/nav_label_library"
+        tools:layout="@layout/fragment_library" />
+
+    <fragment
+        android:id="@+id/nav_stats"
+        android:name="com.example.desafio_iii.StatsFragment"
+        android:label="@string/nav_label_stats"
+        tools:layout="@layout/fragment_stats" />
+
+</navigation>

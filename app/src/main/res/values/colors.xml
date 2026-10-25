@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Paleta de marca (degradado del icono: azul -> verde -> amarillo) -->
+    <color name="brand_blue">#1E88E5</color>
+    <color name="brand_cyan">#16A3A1</color>
+    <color name="brand_green">#3FA535</color>
+    <color name="brand_green_dark">#1B5E20</color>
+    <color name="brand_lime">#BFD730</color>
+    <color name="brand_yellow">#FBE64C</color>
+
+    <color name="brand_primary_container">#C8EFC0</color>
+    <color name="brand_on_primary_container">#1B5E20</color>
+    <color name="brand_secondary_container">#CDE7FB</color>
+    <color name="brand_on_secondary_container">#0D47A1</color>
+
+    <color name="color_danger">#C62828</color>
+</resources>

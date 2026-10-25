@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "813038758848",
+    "firebase_url": "https://dsm-desafio-iii-default-rtdb.firebaseio.com",
+    "project_id": "dsm-desafio-iii",
+    "storage_bucket": "dsm-desafio-iii.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813038758848:android:7f6f8291422c4f01dc7625",
+        "android_client_info": {
+          "package_name": "com.example.desafio_iii"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-7kK1K7mKrY7UEDzfAW09pnlU4JIm7us"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
